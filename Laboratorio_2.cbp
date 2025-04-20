@@ -370,12 +370,15 @@
 		<Unit filename="include/glm/vector_relational.hpp" />
 		<Unit filename="include/matrices.h" />
 		<Unit filename="include/moving.h" />
-		<Unit filename="include/scene.h" />
 		<Unit filename="include/utils.h" />
+		<Unit filename="src/camera.cpp" />
+		<Unit filename="src/draws.cpp" />
 		<Unit filename="src/glad.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src/main.cpp" />
+		<Unit filename="src/matrices.cpp" />
+		<Unit filename="src/moving.cpp" />
 		<Unit filename="src/shader_fragment.glsl" />
 		<Unit filename="src/shader_vertex.glsl" />
 		<Unit filename="src/textrendering.cpp" />

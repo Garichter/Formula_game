@@ -24,7 +24,7 @@
 	<inttypes.h>
 	<stdint.h>
 
-1745152827 source:c:\users\gabri\downloads\laboratorio_2_codigo_fonte\src\main.cpp
+1745166760 source:c:\users\gabri\downloads\laboratorio_2_codigo_fonte\src\main.cpp
 	<cmath>
 	<cstdio>
 	<cstdlib>
@@ -886,7 +886,7 @@
 1743946340 c:\users\gabri\downloads\laboratorio_2_codigo_fonte\include\utils.h
 	<cstdio>
 
-1744553248 c:\users\gabri\downloads\laboratorio_2_codigo_fonte\include\matrices.h
+1745175025 c:\users\gabri\downloads\laboratorio_2_codigo_fonte\include\matrices.h
 	<cstdio>
 	<cstdlib>
 	<glm/mat4x4.hpp>
@@ -906,29 +906,35 @@
 	<stddef.h>
 	<stdint.h>
 
-1745098040 c:\users\gabri\downloads\laboratorio_2_codigo_fonte\include\draws.h
-	<cstdio>
-	<cstdlib>
-	<map>
-	<string>
-	<glm/mat4x4.hpp>
-	<glm/vec4.hpp>
-	<glm/gtc/matrix_transform.hpp>
-	"scene.h"
+1745176477 c:\users\gabri\downloads\laboratorio_2_codigo_fonte\include\draws.h
+	<cmath>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
 
 1744663563 c:\users\gabri\downloads\laboratorio_2_codigo_fonte\include\scene.h
 	<GLFW/glfw3.h>
 
-1745156524 c:\users\gabri\downloads\laboratorio_2_codigo_fonte\include\moving.h
-	<cstdio>
-	<cstdlib>
+1745174366 c:\users\gabri\downloads\laboratorio_2_codigo_fonte\include\moving.h
 	<glm/mat4x4.hpp>
 	<glm/vec4.hpp>
+	<GLFW/glfw3.h>
 
-1745159177 c:\users\gabri\downloads\laboratorio_2_codigo_fonte\include\camera.h
-	<cstdio>
-	<cstdlib>
+1745176528 c:\users\gabri\downloads\laboratorio_2_codigo_fonte\include\camera.h
 	<cmath>
 	<glm/mat4x4.hpp>
 	<glm/vec4.hpp>
+	<GLFW/glfw3.h>
+
+1745173837 source:c:\users\gabri\downloads\laboratorio_2_codigo_fonte\src\moving.cpp
+	"../include/moving.h"
+
+1745174697 source:c:\users\gabri\downloads\laboratorio_2_codigo_fonte\src\camera.cpp
+	"../include/camera.h"
+	"../include/matrices.h"
+
+1745174983 source:c:\users\gabri\downloads\laboratorio_2_codigo_fonte\src\matrices.cpp
+	"../include/matrices.h"
+
+1745176010 source:c:\users\gabri\downloads\laboratorio_2_codigo_fonte\src\draws.cpp
+	"../include/draws.h"
 
